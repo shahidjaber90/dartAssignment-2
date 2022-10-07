@@ -13,33 +13,33 @@ void main(){
 
   // Task Two
 
-  //  int a = 18;
-  //  int b = 25;
-  //  int c = 35;
-  //  if ((a>b) && (a>c))
-  //  {
-  //      print("\nThe biggest age is A");
-  //  }
-  //  else
-  //  {
-  //      print("\nThe lesser age is A");
-  //  }
-  //  if ((b>a) && (b>a))
-  //  {
-  //      print("\nThe biggest age is B");
-  //  }
-  //  else
-  //  {
-  //      print("\nThe lesser age is B");
-  //  }
-  //  if ((c>a) && (c>a))
-  //  {
-  //      print("\nThe biggest age is C");
-  //  }
-  //  else
-  //  {
-  //      print("\nThe lesser age is C");
-  //  }
+   int a = 18;
+   int b = 25;
+   int c = 35;
+   if ((a>b) && (a>c))
+   {
+       print("The oldest age is A");
+   }
+   else
+   {
+       print("The youngest age is A");
+   }
+   if ((b>a) && (b>a))
+   {
+       print("The oldest age is B");
+   }
+   else
+   {
+       print("The youngest age is B");
+   }
+   if ((c>a) && (c>a))
+   {
+       print("The oldest age is C");
+   }
+   else
+   {
+       print("The youngest age is C");
+   }
  
 
   // Task Three
@@ -112,38 +112,38 @@ void main(){
 
   // Task Seven
 
-  int cusId = 2201;
-  var name = "Muhammad Junaid";
-  int units = 201;
-  double bill = 0;
+  // int cusId = 2201;
+  // String name = "Muhammad Junaid";
+  // int units = 800;
+  // double bill = 0;
 
-	if(units <= 199 && units >= 0)
-	{
-		bill = units * 1.20;
-		print("Mr. $name \n ID: $cusId \n your Electricity Bill Rupees is: $bill");
-	}
-	else if(units < 400 && units >= 200)
-	{
-		bill = units * 1.50;
-		print("Mr. $name \n ID: $cusId \n your Electricity Bill Rupees is: $bill");
+	// if(units <= 199 && units >= 0)
+	// {
+	// 	bill = units * 1.20;
+	// 	print(" ID: $cusId \n Name: Mr.$name \n Units: $units  \n Amount Charges: Rs.1.20 \n Net Bill Amount: $bill");
+	// }
+	// else if(units < 400 && units >= 200)
+	// {
+	// 	bill = units * 1.50;
+	// 	print(" ID: $cusId \n Name: Mr.$name \n Units: $units  \n Amount Charges: Rs.1.50 \n Net Bill Amount: $bill");
 
-	}
-	else if(units < 600 && units >= 400)
-	{
-		bill = units * 1.80;
-		print("Mr. $name \n ID: $cusId \n your Electricity Bill Rupees is: $bill");
+	// }
+	// else if(units < 600 && units >= 400)
+	// {
+	// 	bill = units * 1.80;
+	// 	print(" ID: $cusId \n Name: Mr.$name \n Units: $units  \n Amount Charges: Rs.1.80 \n Net Bill Amount: $bill");
 
-	}
+	// }
 
-	else if(units > 600)
-	{
-		bill = units * 2;
-		print("Mr. $name \n ID: $cusId \n your Electricity Bill Rupees is: $bill");
+	// else if(units > 600)
+	// {
+	// 	bill = units * 2;
+	// 	print(" ID: $cusId \n Name: Mr.$name \n Units: $units  \n Amount Charges: Rs.2 \n Net Bill Amount: $bill");
 
-	}
-	else
-	{
-		print("Please enter valid consumed units...");
-	}
+	// }
+	// else
+	// {
+	// 	print("Please enter valid consumed units...");
+	// }
 
 }
