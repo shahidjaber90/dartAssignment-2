@@ -1,3 +1,5 @@
+import 'dart:math';
+
 void main(){
 
   // Task One
@@ -13,33 +15,27 @@ void main(){
 
   // Task Two
 
-   int a = 18;
-   int b = 25;
-   int c = 35;
-   if ((a>b) && (a>c))
+   int age1 = 18;
+   int age2 = 25;
+   int age3 = 35;
+   var list1 = [age1,age2,age3];
+   if ((age1 < age2) && (age1 < age3))
    {
-       print("The oldest age is A");
+       print("The oldest age is  ${list1.reduce(max)}");
    }
    else
    {
-       print("The youngest age is A");
+       print("The youngest age is  ${list1.reduce(min)}");
    }
-   if ((b>a) && (b>a))
+   if ((age2 > age1) && (age2 > age3))
    {
-       print("The oldest age is B");
+       print("The oldest age is  ${list1.reduce(max)}");
    }
    else
    {
-       print("The youngest age is B");
+       print("The youngest age is  ${list1.reduce(min)}");
    }
-   if ((c>a) && (c>a))
-   {
-       print("The oldest age is C");
-   }
-   else
-   {
-       print("The youngest age is C");
-   }
+  
  
 
   // Task Three
